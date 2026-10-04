@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Para você ❤️</title>
+
+    <style>
+    body {
+        background-color: #ffb6c1;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        padding-top: 100px;
+    }
+
+    #mensagem {
+        background-color: white;
+        padding: 20px;
+        margin: 30px auto;
+        width: 300px;
+        border-radius: 20px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .coracao {
+        font-size: 60px;
+        animation: bater 1s infinite;
+    }
+
+    @keyframes bater {
+        0% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale(1.3);
+        }
+
+        100% {
+            transform: scale(1);
+        }
+    }
+button {
+    background-color: #ff4f81;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+</style>
+
+</head>
+
+<body>
+<div class="coracao">❤️</div>
+
+    <h1>Oi, meu amor ❤️</h1>
+
+    <p>Eu fiz isso especialmente para você.</p>
+
+    <p>Espero que você goste... 💕</p>
+<button onclick="document.getElementById('mensagem').style.display='block';">
+    Clique aqui 💌
+</button>
+<div id="mensagem" style="display: none;">
+    <h2>Uma mensagem para você ❤️</h2>
+
+    <p>
+        Talvez eu não consiga explicar tudo que sinto por você,
+        mas quero que saiba que você é uma das pessoas mais especiais
+        da minha vida. ❤️
+    </p>
+</div>
+
+</body>
+</html>
